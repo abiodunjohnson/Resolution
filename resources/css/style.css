@@ -1,0 +1,200 @@
+/*
+Color: #007bff, #ffff, #222222 rgba(108,99,255,.1)
+*/
+
+/* HEADER */
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+
+.header .logo {
+    color: #000;
+}
+
+.footer .logo {
+    color: #fff;
+}
+
+.header .logo-icon {
+    color: #007bff;
+    margin-right: 6px;
+}
+
+.navbar-toggler {
+    border: 1px solid red;
+}
+
+.navbar-collapse {
+    background-color: #ffff;
+    margin-left: 30px;
+}
+
+.nav-link {
+    margin-left: 50px;
+    color: #222222;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.section {
+    background-color: white;
+    padding: 70px 10px;
+}
+
+.section-hero {
+    padding: 0;
+}
+
+.intro {
+    margin-top: 84px;
+    padding-left: 15px;
+}
+
+/* POST */
+
+.post {
+    border-radius: 25px;
+    position: relative;
+}
+
+.section-posts {
+    background-color: rgba(108,99,255,.1);
+}
+
+.post-body {
+    padding-top: 20px;
+    background-color: #ffff;
+    height: 170px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.section-posts .card {
+    margin-bottom: 30px;
+}
+
+.section-posts .post {
+    margin-bottom: 30px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.photo {
+    height: 180px;
+    background-color: #007bff;
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.paragraph {
+    font-size: 14px;
+    word-spacing: 1px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.text-muted {
+    font-size: 11px;
+    color: #6c757d;
+    padding-top: 40px;
+}
+
+/* ----------------------------------*/
+/* HOW SECTION */
+/* ----------------------------------*/
+
+.section-how .how-card {
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.illustration-box {
+    margin: 0 auto;
+    width: 4rem;
+    height: 4rem;
+}
+
+.illustration-box .illustration {
+    width: 100%;
+}
+
+.sec-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.pri-text {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.how-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.section-how .button1 {
+    /* margin-left: 480px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/** TELL **/
+
+.section-tell {
+    background-color: rgba(108,99,255,.1);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.tell-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center
+}
+
+/** FOOTER */
+
+footer {
+    color: white;
+    padding-top: 30px;
+    background-color: rgba(0,0,0,.8);
+}
+
+.heart-icon {
+    color: red;
+}
+.footer-right {
+    float: right; 
+}
+
+.paragraph.smaller {
+    font-size: 11px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.774);
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
